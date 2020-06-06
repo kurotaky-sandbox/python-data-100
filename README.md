@@ -9,3 +9,5 @@ build & run
 docker build -t python-data100 .
 docker run -p 8888:8888 --name python-data100 bf79d377d82d
 ```
+
+http://localhost:8888/
