@@ -7,7 +7,7 @@ https://www.shuwasystem.co.jp/book/9784798058757.html
 build & run
 ```
 docker build -t python-data100 .
-docker run -p 8888:8888 --name python-data100 bf79d377d82d
+docker run --rm -it -p 8888:8888 --name python-data100 python-data100
 ```
 
 http://localhost:8888/
